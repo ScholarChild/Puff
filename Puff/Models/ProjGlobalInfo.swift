@@ -18,12 +18,12 @@ class ProjGlobalInfo {
         }
         return "1.0.0"
     }
-    
     static var bundleName: String {
-        if let appInfo = Bundle.main.infoDictionary,
-           let name = appInfo["CFBundleIdentifier"] as? String {
-            return name
-        }
-        return ""
+//        if let appInfo = Bundle.main.infoDictionary,
+//           let name = appInfo["CFBundleIdentifier"] as? String {
+//            return name
+//        }
+        //TODO: 新的包名不能用，可能是后台的问题。最后记得改回来
+        return "com.cetusthuxiyuho.ios"
     }
 }

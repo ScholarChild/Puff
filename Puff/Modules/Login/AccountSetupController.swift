@@ -9,11 +9,19 @@ class AccountSetupController: YHBaseServiceViewController {
     }
     
     private func initPageView() {
-        let bgView = UIImageView(image: UIImage(named: "login_pageBackground"))
+        let bgView = UIImageView(image: UIImage(named: "lunch_background"))
         bgView.contentMode = .scaleAspectFill
         view.addSubview(bgView)
         bgView.snp.makeConstraints { make in
             make.edges.equalToSuperview()
+        }
+        
+        let appNameView = UIImageView(image: UIImage(named: "login_appName"))
+        appNameView.contentMode = .scaleAspectFill
+        view.addSubview(appNameView)
+        appNameView.snp.makeConstraints { make in
+            make.top.equalTo(self.view.safeAreaLayoutGuide.snp.top).offset(240)
+            make.centerX.equalToSuperview()
         }
         
         view.addSubview(startBtn)

@@ -9,7 +9,7 @@ class ProjGlobalAboutPage: YHBaseServiceViewController {
         addNaviBackItem(style: .black)
         setNaviTitle("About")
         
-        let appIcon = UIImageView(image: .init(named: "about_appIcon"))
+        let appIcon = UIImageView(image: .init(named: "lunch_appIcon"))
         appIcon.snp.makeConstraints { make in
             make.size.equalTo(114)
         }
