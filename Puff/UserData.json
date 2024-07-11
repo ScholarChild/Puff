@@ -1,0 +1,50 @@
+{
+    "userName_personal_male": [
+        "Calm Warrior",
+        "Zen Traveler",
+        "Mindful Seeker",
+        "Peace Guardian",
+        "Breath Sage",
+        "Serene Nomad",
+        "Tranquil Voyager",
+        "Meditation Guide",
+        "Zen Master",
+        "Spirit Healer"
+    ],
+    "userName_personal_female": [
+        "Calm Muse",
+        "Zen Dreamer",
+        "Mindful Blossom",
+        "Peace Dancer",
+        "Breath Whisper",
+        "Serene Light",
+        "Tranquil Heart",
+        "Meditation Queen",
+        "Zen Goddess",
+        "Spirit Seeker"
+    ],
+    "userName_comunity_male": [
+        "Quiet Storm",
+        "Mindful Pilgrim",
+        "Peace Wanderer",
+        "Breath Walker",
+        "Serene Knight",
+        "Tranquil Sage",
+        "Meditation Warrior",
+        "Zen Guardian",
+        "Spirit Voyager",
+        "Calm Explorer"
+    ],
+    "userName_comunity_female": [
+        "Quiet Whisper",
+        "Mindful Star",
+        "Peace Blossom",
+        "Breath Dancer",
+        "Serene Dreamer",
+        "Tranquil Muse",
+        "Meditation Angel",
+        "Zen Princess",
+        "Spirit Guide",
+        "Calm Soul"
+    ]
+}

@@ -1,0 +1,36 @@
+# Xcode
+.DS_Store
+**/xcuserdata/
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# Swift Package Manager
+.build/
+
+# Generated files
+DerivedData/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# Build products
+build/
+*.o
+*.~bc
+*.swiftdoc
+*.swiftmodule
+
+# Test results
+TestResults/
+
+# Dependencies
+*.xcframework/
+
+
+# Other
+*.log
+*.tmp
+*.bak

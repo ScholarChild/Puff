@@ -1,0 +1,72 @@
+PODS:
+  - Alamofire (5.9.1)
+  - Deviice (2.1.2)
+  - HXPhotoPicker/Camera/Lite (4.1.8.1):
+    - HXPhotoPicker/Core
+  - HXPhotoPicker/Core (4.1.8.1)
+  - HXPhotoPicker/Editor (4.1.8.1):
+    - HXPhotoPicker/Editor/KF (= 4.1.8.1)
+    - HXPhotoPicker/Editor/Lite (= 4.1.8.1)
+  - HXPhotoPicker/Editor/KF (4.1.8.1):
+    - HXPhotoPicker/Editor/Lite
+    - HXPhotoPicker/EditorView/KF
+    - Kingfisher (~> 7.0)
+  - HXPhotoPicker/Editor/Lite (4.1.8.1):
+    - HXPhotoPicker/EditorView/Lite
+  - HXPhotoPicker/EditorView/KF (4.1.8.1):
+    - HXPhotoPicker/EditorView/Lite
+    - Kingfisher (~> 7.0)
+  - HXPhotoPicker/EditorView/Lite (4.1.8.1):
+    - HXPhotoPicker/Core
+  - HXPhotoPicker/NoLocation (4.1.8.1):
+    - HXPhotoPicker/Camera/Lite
+    - HXPhotoPicker/Editor
+    - HXPhotoPicker/Picker
+  - HXPhotoPicker/Picker (4.1.8.1):
+    - HXPhotoPicker/Picker/KF (= 4.1.8.1)
+    - HXPhotoPicker/Picker/Lite (= 4.1.8.1)
+  - HXPhotoPicker/Picker/KF (4.1.8.1):
+    - HXPhotoPicker/Picker/Lite
+    - Kingfisher (~> 7.0)
+  - HXPhotoPicker/Picker/Lite (4.1.8.1):
+    - HXPhotoPicker/Core
+  - IQKeyboardManagerSwift (7.0.2)
+  - Kingfisher (7.11.0)
+  - Pageboy (3.7.0)
+  - SnapKit (5.7.1)
+  - Toast-Swift (5.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Deviice
+  - HXPhotoPicker/NoLocation
+  - IQKeyboardManagerSwift
+  - Kingfisher (~> 7.0)
+  - Pageboy (~> 3.2)
+  - SnapKit (~> 5.7.0)
+  - Toast-Swift (~> 5.1.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - Deviice
+    - HXPhotoPicker
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - Pageboy
+    - SnapKit
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
+  Deviice: 63704d55053f64c28e711236119e511919f56918
+  HXPhotoPicker: bde8b5f23dbd6ffc787082e6b4a2750f8ccb1e8c
+  IQKeyboardManagerSwift: d338c11a896e9f29603443700c4567e32f830c22
+  Kingfisher: b9c985d864d43515f404f1ef4a8ce7d802ace3ac
+  Pageboy: fe646118f7168960058bea7a96038386aa7c0da8
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+  Toast-Swift: dd369e68ee529f542c65bd0d0c6c50cd743cf6f2
+
+PODFILE CHECKSUM: a4aab21687d916b98ff376e621e4c6490a2a8701
+
+COCOAPODS: 1.15.2

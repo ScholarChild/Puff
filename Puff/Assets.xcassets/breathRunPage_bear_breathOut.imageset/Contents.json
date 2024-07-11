@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "breathRunPage_bear_breathOut.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "breathRunPage_bear_breathOut@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "breathRunPage_bear_breathOut@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

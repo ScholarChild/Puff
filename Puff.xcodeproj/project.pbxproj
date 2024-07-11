@@ -7,15 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C35EC22E02345D4A9B517B7 /* Pods_Puff.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 235B8C11EE4A4F1A2E486109 /* Pods_Puff.framework */; };
 		843C464F2C3FC64D008AE6F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C464E2C3FC64D008AE6F4 /* AppDelegate.swift */; };
 		843C46512C3FC64D008AE6F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C46502C3FC64D008AE6F4 /* SceneDelegate.swift */; };
 		843C46532C3FC64D008AE6F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C46522C3FC64D008AE6F4 /* ViewController.swift */; };
 		843C46562C3FC64D008AE6F4 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 843C46552C3FC64D008AE6F4 /* Base */; };
 		843C46582C3FC64E008AE6F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843C46572C3FC64E008AE6F4 /* Assets.xcassets */; };
 		843C465B2C3FC64E008AE6F4 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 843C465A2C3FC64E008AE6F4 /* Base */; };
+		843C468B2C3FC90C008AE6F4 /* AcountLaunchRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C46622C3FC90C008AE6F4 /* AcountLaunchRunner.swift */; };
+		843C468C2C3FC90C008AE6F4 /* AstrologyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C46632C3FC90C008AE6F4 /* AstrologyManager.swift */; };
+		843C468D2C3FC90C008AE6F4 /* BaseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C46642C3FC90C008AE6F4 /* BaseModels.swift */; };
+		843C468E2C3FC90C008AE6F4 /* BreathRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C46652C3FC90C008AE6F4 /* BreathRecord.swift */; };
+		843C468F2C3FC90C008AE6F4 /* CodableObjStoeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C46662C3FC90C008AE6F4 /* CodableObjStoeHandler.swift */; };
+		843C46902C3FC90C008AE6F4 /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C46672C3FC90C008AE6F4 /* KeychainManager.swift */; };
+		843C46912C3FC90C008AE6F4 /* LocalValueStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C46682C3FC90C008AE6F4 /* LocalValueStore.swift */; };
+		843C46922C3FC90C008AE6F4 /* NewAccountDataFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C46692C3FC90C008AE6F4 /* NewAccountDataFactory.swift */; };
+		843C46932C3FC90C008AE6F4 /* ProjGlobalInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C466A2C3FC90C008AE6F4 /* ProjGlobalInfo.swift */; };
+		843C46942C3FC90C008AE6F4 /* ServerDataRequestor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C466B2C3FC90C008AE6F4 /* ServerDataRequestor.swift */; };
+		843C46952C3FC90C008AE6F4 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C466C2C3FC90C008AE6F4 /* UserManager.swift */; };
+		843C46962C3FC90C008AE6F4 /* YHAnswerBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C466E2C3FC90C008AE6F4 /* YHAnswerBookViewController.swift */; };
+		843C46972C3FC90C008AE6F4 /* YHAstrologyMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C466F2C3FC90C008AE6F4 /* YHAstrologyMainViewController.swift */; };
+		843C46982C3FC90C008AE6F4 /* YHBreathBuildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C46712C3FC90C008AE6F4 /* YHBreathBuildViewController.swift */; };
+		843C46992C3FC90C008AE6F4 /* YHBreathBuildViewController+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C46722C3FC90C008AE6F4 /* YHBreathBuildViewController+View.swift */; };
+		843C469A2C3FC90C008AE6F4 /* YHBreathRunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C46732C3FC90C008AE6F4 /* YHBreathRunViewController.swift */; };
+		843C469B2C3FC90C008AE6F4 /* AccountSetupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C46752C3FC90C008AE6F4 /* AccountSetupController.swift */; };
+		843C469C2C3FC90C008AE6F4 /* LicenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C46762C3FC90C008AE6F4 /* LicenseView.swift */; };
+		843C469D2C3FC90C008AE6F4 /* LicenseWarningAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C46772C3FC90C008AE6F4 /* LicenseWarningAlert.swift */; };
+		843C469E2C3FC90C008AE6F4 /* ProfileEditPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C46792C3FC90C008AE6F4 /* ProfileEditPage.swift */; };
+		843C469F2C3FC90C008AE6F4 /* ProjGlobalAboutPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C467A2C3FC90C008AE6F4 /* ProjGlobalAboutPage.swift */; };
+		843C46A02C3FC90C008AE6F4 /* YHBaseOperationAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C467B2C3FC90C008AE6F4 /* YHBaseOperationAlert.swift */; };
+		843C46A12C3FC90C008AE6F4 /* YHCurrentUserInfoCollectionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C467C2C3FC90C008AE6F4 /* YHCurrentUserInfoCollectionPage.swift */; };
+		843C46A22C3FC90C008AE6F4 /* YHTabContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C467E2C3FC90C008AE6F4 /* YHTabContainerController.swift */; };
+		843C46A32C3FC90C008AE6F4 /* RootControllerChangeRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C46802C3FC90C008AE6F4 /* RootControllerChangeRunner.swift */; };
+		843C46A42C3FC90C008AE6F4 /* SaveSnapShootTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C46812C3FC90C008AE6F4 /* SaveSnapShootTools.swift */; };
+		843C46A52C3FC90C008AE6F4 /* WindowLetValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C46822C3FC90C008AE6F4 /* WindowLetValue.swift */; };
+		843C46A62C3FC90C008AE6F4 /* YHMockNetworkRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C46832C3FC90C008AE6F4 /* YHMockNetworkRunner.swift */; };
+		843C46A72C3FC90C008AE6F4 /* YHUserReportManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C46842C3FC90C008AE6F4 /* YHUserReportManager.swift */; };
+		843C46A82C3FC90C008AE6F4 /* RanbowColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C46862C3FC90C008AE6F4 /* RanbowColorView.swift */; };
+		843C46A92C3FC90C008AE6F4 /* SecondSimpleBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C46872C3FC90C008AE6F4 /* SecondSimpleBtn.swift */; };
+		843C46AA2C3FC90C008AE6F4 /* SimpleActionBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C46882C3FC90C008AE6F4 /* SimpleActionBtn.swift */; };
+		843C46AB2C3FC90C008AE6F4 /* YHBaseServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C46892C3FC90C008AE6F4 /* YHBaseServiceViewController.swift */; };
+		843C46AF2C3FC91E008AE6F4 /* Astrology.json in Resources */ = {isa = PBXBuildFile; fileRef = 843C46AC2C3FC91D008AE6F4 /* Astrology.json */; };
+		843C46B02C3FC91E008AE6F4 /* ABCMarfa-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 843C46AD2C3FC91E008AE6F4 /* ABCMarfa-Bold.otf */; };
+		843C46B12C3FC91E008AE6F4 /* UserData.json in Resources */ = {isa = PBXBuildFile; fileRef = 843C46AE2C3FC91E008AE6F4 /* UserData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		235B8C11EE4A4F1A2E486109 /* Pods_Puff.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Puff.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57CE849EB92F9C78F1A3137B /* Pods-Puff.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Puff.release.xcconfig"; path = "Target Support Files/Pods-Puff/Pods-Puff.release.xcconfig"; sourceTree = "<group>"; };
 		843C464B2C3FC64D008AE6F4 /* Puff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Puff.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		843C464E2C3FC64D008AE6F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		843C46502C3FC64D008AE6F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +63,43 @@
 		843C46572C3FC64E008AE6F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		843C465A2C3FC64E008AE6F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		843C465C2C3FC64E008AE6F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843C46622C3FC90C008AE6F4 /* AcountLaunchRunner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcountLaunchRunner.swift; sourceTree = "<group>"; };
+		843C46632C3FC90C008AE6F4 /* AstrologyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstrologyManager.swift; sourceTree = "<group>"; };
+		843C46642C3FC90C008AE6F4 /* BaseModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModels.swift; sourceTree = "<group>"; };
+		843C46652C3FC90C008AE6F4 /* BreathRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreathRecord.swift; sourceTree = "<group>"; };
+		843C46662C3FC90C008AE6F4 /* CodableObjStoeHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableObjStoeHandler.swift; sourceTree = "<group>"; };
+		843C46672C3FC90C008AE6F4 /* KeychainManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
+		843C46682C3FC90C008AE6F4 /* LocalValueStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalValueStore.swift; sourceTree = "<group>"; };
+		843C46692C3FC90C008AE6F4 /* NewAccountDataFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewAccountDataFactory.swift; sourceTree = "<group>"; };
+		843C466A2C3FC90C008AE6F4 /* ProjGlobalInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjGlobalInfo.swift; sourceTree = "<group>"; };
+		843C466B2C3FC90C008AE6F4 /* ServerDataRequestor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerDataRequestor.swift; sourceTree = "<group>"; };
+		843C466C2C3FC90C008AE6F4 /* UserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		843C466E2C3FC90C008AE6F4 /* YHAnswerBookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YHAnswerBookViewController.swift; sourceTree = "<group>"; };
+		843C466F2C3FC90C008AE6F4 /* YHAstrologyMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YHAstrologyMainViewController.swift; sourceTree = "<group>"; };
+		843C46712C3FC90C008AE6F4 /* YHBreathBuildViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YHBreathBuildViewController.swift; sourceTree = "<group>"; };
+		843C46722C3FC90C008AE6F4 /* YHBreathBuildViewController+View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "YHBreathBuildViewController+View.swift"; sourceTree = "<group>"; };
+		843C46732C3FC90C008AE6F4 /* YHBreathRunViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YHBreathRunViewController.swift; sourceTree = "<group>"; };
+		843C46752C3FC90C008AE6F4 /* AccountSetupController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountSetupController.swift; sourceTree = "<group>"; };
+		843C46762C3FC90C008AE6F4 /* LicenseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LicenseView.swift; sourceTree = "<group>"; };
+		843C46772C3FC90C008AE6F4 /* LicenseWarningAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LicenseWarningAlert.swift; sourceTree = "<group>"; };
+		843C46792C3FC90C008AE6F4 /* ProfileEditPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileEditPage.swift; sourceTree = "<group>"; };
+		843C467A2C3FC90C008AE6F4 /* ProjGlobalAboutPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjGlobalAboutPage.swift; sourceTree = "<group>"; };
+		843C467B2C3FC90C008AE6F4 /* YHBaseOperationAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YHBaseOperationAlert.swift; sourceTree = "<group>"; };
+		843C467C2C3FC90C008AE6F4 /* YHCurrentUserInfoCollectionPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YHCurrentUserInfoCollectionPage.swift; sourceTree = "<group>"; };
+		843C467E2C3FC90C008AE6F4 /* YHTabContainerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YHTabContainerController.swift; sourceTree = "<group>"; };
+		843C46802C3FC90C008AE6F4 /* RootControllerChangeRunner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootControllerChangeRunner.swift; sourceTree = "<group>"; };
+		843C46812C3FC90C008AE6F4 /* SaveSnapShootTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveSnapShootTools.swift; sourceTree = "<group>"; };
+		843C46822C3FC90C008AE6F4 /* WindowLetValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowLetValue.swift; sourceTree = "<group>"; };
+		843C46832C3FC90C008AE6F4 /* YHMockNetworkRunner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YHMockNetworkRunner.swift; sourceTree = "<group>"; };
+		843C46842C3FC90C008AE6F4 /* YHUserReportManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YHUserReportManager.swift; sourceTree = "<group>"; };
+		843C46862C3FC90C008AE6F4 /* RanbowColorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RanbowColorView.swift; sourceTree = "<group>"; };
+		843C46872C3FC90C008AE6F4 /* SecondSimpleBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondSimpleBtn.swift; sourceTree = "<group>"; };
+		843C46882C3FC90C008AE6F4 /* SimpleActionBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleActionBtn.swift; sourceTree = "<group>"; };
+		843C46892C3FC90C008AE6F4 /* YHBaseServiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YHBaseServiceViewController.swift; sourceTree = "<group>"; };
+		843C46AC2C3FC91D008AE6F4 /* Astrology.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Astrology.json; sourceTree = "<group>"; };
+		843C46AD2C3FC91E008AE6F4 /* ABCMarfa-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ABCMarfa-Bold.otf"; sourceTree = "<group>"; };
+		843C46AE2C3FC91E008AE6F4 /* UserData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UserData.json; sourceTree = "<group>"; };
+		CCF97A03D18309A8DA8C4F61 /* Pods-Puff.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Puff.debug.xcconfig"; path = "Target Support Files/Pods-Puff/Pods-Puff.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C35EC22E02345D4A9B517B7 /* Pods_Puff.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +119,8 @@
 			children = (
 				843C464D2C3FC64D008AE6F4 /* Puff */,
 				843C464C2C3FC64D008AE6F4 /* Products */,
+				E345F65875F4F1DA6F98ECE8 /* Pods */,
+				F460BE93A57BD34113BF8721 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +137,130 @@
 			children = (
 				843C464E2C3FC64D008AE6F4 /* AppDelegate.swift */,
 				843C46502C3FC64D008AE6F4 /* SceneDelegate.swift */,
+				843C467F2C3FC90C008AE6F4 /* Modules */,
+				843C468A2C3FC90C008AE6F4 /* Common View */,
+				843C466D2C3FC90C008AE6F4 /* Models */,
+				843C46852C3FC90C008AE6F4 /* Tools */,
 				843C46522C3FC64D008AE6F4 /* ViewController.swift */,
+				843C46AD2C3FC91E008AE6F4 /* ABCMarfa-Bold.otf */,
+				843C46AC2C3FC91D008AE6F4 /* Astrology.json */,
+				843C46AE2C3FC91E008AE6F4 /* UserData.json */,
 				843C46542C3FC64D008AE6F4 /* Main.storyboard */,
 				843C46572C3FC64E008AE6F4 /* Assets.xcassets */,
 				843C46592C3FC64E008AE6F4 /* LaunchScreen.storyboard */,
 				843C465C2C3FC64E008AE6F4 /* Info.plist */,
 			);
 			path = Puff;
+			sourceTree = "<group>";
+		};
+		843C466D2C3FC90C008AE6F4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				843C46622C3FC90C008AE6F4 /* AcountLaunchRunner.swift */,
+				843C46632C3FC90C008AE6F4 /* AstrologyManager.swift */,
+				843C46642C3FC90C008AE6F4 /* BaseModels.swift */,
+				843C46652C3FC90C008AE6F4 /* BreathRecord.swift */,
+				843C46662C3FC90C008AE6F4 /* CodableObjStoeHandler.swift */,
+				843C46672C3FC90C008AE6F4 /* KeychainManager.swift */,
+				843C46682C3FC90C008AE6F4 /* LocalValueStore.swift */,
+				843C46692C3FC90C008AE6F4 /* NewAccountDataFactory.swift */,
+				843C466A2C3FC90C008AE6F4 /* ProjGlobalInfo.swift */,
+				843C466B2C3FC90C008AE6F4 /* ServerDataRequestor.swift */,
+				843C466C2C3FC90C008AE6F4 /* UserManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		843C46702C3FC90C008AE6F4 /* AstrologyBook */ = {
+			isa = PBXGroup;
+			children = (
+				843C466E2C3FC90C008AE6F4 /* YHAnswerBookViewController.swift */,
+				843C466F2C3FC90C008AE6F4 /* YHAstrologyMainViewController.swift */,
+			);
+			path = AstrologyBook;
+			sourceTree = "<group>";
+		};
+		843C46742C3FC90C008AE6F4 /* BreathePage */ = {
+			isa = PBXGroup;
+			children = (
+				843C46712C3FC90C008AE6F4 /* YHBreathBuildViewController.swift */,
+				843C46722C3FC90C008AE6F4 /* YHBreathBuildViewController+View.swift */,
+				843C46732C3FC90C008AE6F4 /* YHBreathRunViewController.swift */,
+			);
+			path = BreathePage;
+			sourceTree = "<group>";
+		};
+		843C46782C3FC90C008AE6F4 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				843C46752C3FC90C008AE6F4 /* AccountSetupController.swift */,
+				843C46762C3FC90C008AE6F4 /* LicenseView.swift */,
+				843C46772C3FC90C008AE6F4 /* LicenseWarningAlert.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		843C467D2C3FC90C008AE6F4 /* Personal */ = {
+			isa = PBXGroup;
+			children = (
+				843C46792C3FC90C008AE6F4 /* ProfileEditPage.swift */,
+				843C467A2C3FC90C008AE6F4 /* ProjGlobalAboutPage.swift */,
+				843C467B2C3FC90C008AE6F4 /* YHBaseOperationAlert.swift */,
+				843C467C2C3FC90C008AE6F4 /* YHCurrentUserInfoCollectionPage.swift */,
+			);
+			path = Personal;
+			sourceTree = "<group>";
+		};
+		843C467F2C3FC90C008AE6F4 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				843C46702C3FC90C008AE6F4 /* AstrologyBook */,
+				843C46742C3FC90C008AE6F4 /* BreathePage */,
+				843C46782C3FC90C008AE6F4 /* Login */,
+				843C467D2C3FC90C008AE6F4 /* Personal */,
+				843C467E2C3FC90C008AE6F4 /* YHTabContainerController.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		843C46852C3FC90C008AE6F4 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				843C46802C3FC90C008AE6F4 /* RootControllerChangeRunner.swift */,
+				843C46812C3FC90C008AE6F4 /* SaveSnapShootTools.swift */,
+				843C46822C3FC90C008AE6F4 /* WindowLetValue.swift */,
+				843C46832C3FC90C008AE6F4 /* YHMockNetworkRunner.swift */,
+				843C46842C3FC90C008AE6F4 /* YHUserReportManager.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		843C468A2C3FC90C008AE6F4 /* Common View */ = {
+			isa = PBXGroup;
+			children = (
+				843C46862C3FC90C008AE6F4 /* RanbowColorView.swift */,
+				843C46872C3FC90C008AE6F4 /* SecondSimpleBtn.swift */,
+				843C46882C3FC90C008AE6F4 /* SimpleActionBtn.swift */,
+				843C46892C3FC90C008AE6F4 /* YHBaseServiceViewController.swift */,
+			);
+			path = "Common View";
+			sourceTree = "<group>";
+		};
+		E345F65875F4F1DA6F98ECE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCF97A03D18309A8DA8C4F61 /* Pods-Puff.debug.xcconfig */,
+				57CE849EB92F9C78F1A3137B /* Pods-Puff.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F460BE93A57BD34113BF8721 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				235B8C11EE4A4F1A2E486109 /* Pods_Puff.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +270,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 843C465F2C3FC64E008AE6F4 /* Build configuration list for PBXNativeTarget "Puff" */;
 			buildPhases = (
+				DA2035D4B74945C5A02AA068 /* [CP] Check Pods Manifest.lock */,
 				843C46472C3FC64D008AE6F4 /* Sources */,
 				843C46482C3FC64D008AE6F4 /* Frameworks */,
 				843C46492C3FC64D008AE6F4 /* Resources */,
+				27E339CD25237537E391B9B8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,22 +323,100 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843C46B12C3FC91E008AE6F4 /* UserData.json in Resources */,
 				843C46582C3FC64E008AE6F4 /* Assets.xcassets in Resources */,
 				843C465B2C3FC64E008AE6F4 /* Base in Resources */,
+				843C46B02C3FC91E008AE6F4 /* ABCMarfa-Bold.otf in Resources */,
+				843C46AF2C3FC91E008AE6F4 /* Astrology.json in Resources */,
 				843C46562C3FC64D008AE6F4 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		27E339CD25237537E391B9B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Puff/Pods-Puff-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Puff/Pods-Puff-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Puff/Pods-Puff-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA2035D4B74945C5A02AA068 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Puff-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		843C46472C3FC64D008AE6F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843C46A62C3FC90C008AE6F4 /* YHMockNetworkRunner.swift in Sources */,
+				843C46A12C3FC90C008AE6F4 /* YHCurrentUserInfoCollectionPage.swift in Sources */,
+				843C46A52C3FC90C008AE6F4 /* WindowLetValue.swift in Sources */,
+				843C46A22C3FC90C008AE6F4 /* YHTabContainerController.swift in Sources */,
+				843C469E2C3FC90C008AE6F4 /* ProfileEditPage.swift in Sources */,
 				843C46532C3FC64D008AE6F4 /* ViewController.swift in Sources */,
 				843C464F2C3FC64D008AE6F4 /* AppDelegate.swift in Sources */,
+				843C46A82C3FC90C008AE6F4 /* RanbowColorView.swift in Sources */,
+				843C46952C3FC90C008AE6F4 /* UserManager.swift in Sources */,
+				843C46A42C3FC90C008AE6F4 /* SaveSnapShootTools.swift in Sources */,
+				843C46A92C3FC90C008AE6F4 /* SecondSimpleBtn.swift in Sources */,
+				843C46A32C3FC90C008AE6F4 /* RootControllerChangeRunner.swift in Sources */,
+				843C46992C3FC90C008AE6F4 /* YHBreathBuildViewController+View.swift in Sources */,
+				843C46A72C3FC90C008AE6F4 /* YHUserReportManager.swift in Sources */,
+				843C46A02C3FC90C008AE6F4 /* YHBaseOperationAlert.swift in Sources */,
+				843C469A2C3FC90C008AE6F4 /* YHBreathRunViewController.swift in Sources */,
+				843C469D2C3FC90C008AE6F4 /* LicenseWarningAlert.swift in Sources */,
+				843C468C2C3FC90C008AE6F4 /* AstrologyManager.swift in Sources */,
+				843C469F2C3FC90C008AE6F4 /* ProjGlobalAboutPage.swift in Sources */,
+				843C46912C3FC90C008AE6F4 /* LocalValueStore.swift in Sources */,
+				843C468B2C3FC90C008AE6F4 /* AcountLaunchRunner.swift in Sources */,
+				843C46902C3FC90C008AE6F4 /* KeychainManager.swift in Sources */,
+				843C468F2C3FC90C008AE6F4 /* CodableObjStoeHandler.swift in Sources */,
+				843C469C2C3FC90C008AE6F4 /* LicenseView.swift in Sources */,
+				843C46AB2C3FC90C008AE6F4 /* YHBaseServiceViewController.swift in Sources */,
+				843C468D2C3FC90C008AE6F4 /* BaseModels.swift in Sources */,
+				843C46922C3FC90C008AE6F4 /* NewAccountDataFactory.swift in Sources */,
+				843C468E2C3FC90C008AE6F4 /* BreathRecord.swift in Sources */,
+				843C469B2C3FC90C008AE6F4 /* AccountSetupController.swift in Sources */,
 				843C46512C3FC64D008AE6F4 /* SceneDelegate.swift in Sources */,
+				843C46942C3FC90C008AE6F4 /* ServerDataRequestor.swift in Sources */,
+				843C46982C3FC90C008AE6F4 /* YHBreathBuildViewController.swift in Sources */,
+				843C46932C3FC90C008AE6F4 /* ProjGlobalInfo.swift in Sources */,
+				843C46962C3FC90C008AE6F4 /* YHAnswerBookViewController.swift in Sources */,
+				843C46972C3FC90C008AE6F4 /* YHAstrologyMainViewController.swift in Sources */,
+				843C46AA2C3FC90C008AE6F4 /* SimpleActionBtn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,57 +563,75 @@
 		};
 		843C46602C3FC64E008AE6F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCF97A03D18309A8DA8C4F61 /* Pods-Puff.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FP88G32C4L;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Puff/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Puff needs to access the camera to change the profile picture";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Puff needs to access the photo album to change the profile picture and to save inspiring quotes and answers from the Answer Book";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = banana.Puff;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cetusthuxiyuho.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		843C46612C3FC64E008AE6F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57CE849EB92F9C78F1A3137B /* Pods-Puff.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FP88G32C4L;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Puff/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Puff needs to access the camera to change the profile picture";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Puff needs to access the photo album to change the profile picture and to save inspiring quotes and answers from the Answer Book";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = banana.Puff;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cetusthuxiyuho.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
